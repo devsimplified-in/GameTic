@@ -1,0 +1,45 @@
+﻿{
+   "ContextClassName": "TictactoegameContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": null,
+   "OutputContextPath": "DBContext",
+   "OutputPath": "Model",
+   "ProjectRootNamespace": "tic.data",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Game]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Player]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Player_Game]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[PlayerQueue]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Square]"
+      }
+   ],
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseNodaTime": false,
+   "UseSpatial": false,
+   "UseStoredProcedures": false
+}
